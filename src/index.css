@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(242, 242, 242);
+  width: 100%;
+}
+nav{
+  background-color: white;
+  color: black;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2),
+  -6px -6px 10px rgba(255, 255, 255, 0.7);
+  position: fixed;
+}
+.btn{
+  background-color: rgb(10, 130, 235);
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2),
+  -6px -6px 10px rgba(255, 255, 255, 0.7);
+  color: black;
+  border: none;
+  font-weight: bold;
+}
+.d-block{
+  height: 500px;
+  width: 100%;
+  padding: 18px;
+  /* opacity:  0.5; */
+  /* overflow-y: scroll; */
+  transition: all ease-in-out .3s;
+}
+#time{
+  color: rgb(116, 113, 113);
+  margin-left: 40px;
+  
+}
+.spinner{
+  display: flex;
+  /* background-color: red; */
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.time{
+  font-size: 17px;
+}
+.nav-link{
+  
+  font-weight: 500;
+  margin-left: 25px;
+  /* background-color: antiquewhite; */
+}
+.input-btn{
+  border-radius: 20px;
+  color: rgb(21, 21, 22);
+  text-align: center;
+  font-weight: 500;
+  background-color: rgb(24, 216, 104);
+}
+.navbar-brand{
+  font-weight: bold;
+  color: rgb(255, 0, 0);
+  transition: 0.5s;
+}
+img{
+  transition: all ease-in-out.3s;
+}
+img:hover{
+  transform: scale(105%);
+}
+#hovernews:hover{
+   color: rgb(235, 145, 11);
+}
+
+#input{
+  /* border: none; */
+  /* border-bottom: 1px solid rgb(181, 177, 177); */
+  border-radius: 20px;
+  outline: none;
+  /* padding: 0px; */
+  box-shadow: 6px 6px 10px rgba(149, 147, 147, 0.2),
+  -6px -6px 10px rgba(255, 255, 255, 0.7);
+  
+}
+
+
